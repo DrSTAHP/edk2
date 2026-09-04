@@ -1,0 +1,27 @@
+[Defines]
+  INF_VERSION = 1.25
+  BASE_NAME = DOOM
+  FILE_GUID = 47710205-b25a-40ba-8cd8-4c6b23954647 # Get a GUID from guidgen.com
+  MODULE_TYPE = UEFI_APPLICATION
+  VERSION_STRING = 1.0
+  ENTRY_POINT = UefiEntry
+
+[Sources]
+  # ... DOOM sources here ...
+
+[Packages]
+  MdePkg/MdePkg.dec # MUST-HAVE
+
+[LibraryClasses]
+    UefiApplicationEntryPoint
+    UefiLib
+
+[Guids]
+
+[Ppis]
+
+[Protocols]
+
+[FeaturePcd]
+
+[Pcd]
