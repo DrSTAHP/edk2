@@ -1,0 +1,28 @@
+[Defines]
+  INF_VERSION = 1.25
+  BASE_NAME = Snake
+  FILE_GUID = 9024a8ac-82e9-4487-b5c8-86bc4b0d32f9 # Get a GUID from guidgen.com
+  MODULE_TYPE = UEFI_APPLICATION
+  VERSION_STRING = 1.0
+  ENTRY_POINT = UefiEntry
+
+[Sources]
+  Snake.c
+
+[Packages]
+  MdePkg/MdePkg.dec
+
+[LibraryClasses]
+    UefiApplicationEntryPoint
+    UefiLib
+    RngLib
+
+[Guids]
+
+[Ppis]
+
+[Protocols]
+
+[FeaturePcd]
+
+[Pcd]
