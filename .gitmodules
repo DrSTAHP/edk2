@@ -38,3 +38,7 @@
 [submodule "TcgTpmPkg/Library/TpmLib/TPM"]
 	path = TcgTpmPkg/Library/TpmLib/TPM
 	url = https://github.com/TrustedComputingGroup/TPM
+[submodule "MyEFIApps/UEFIDoom/DOOM"]
+	path = MyEFIApps/UEFIDoom/DOOM
+	url = https://github.com/DrSTAHP/DOOM
+	branch = Port/UEFI
