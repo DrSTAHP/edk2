@@ -38,3 +38,10 @@
 [submodule "TcgTpmPkg/Library/TpmLib/TPM"]
 	path = TcgTpmPkg/Library/TpmLib/TPM
 	url = https://github.com/TrustedComputingGroup/TPM
+[submodule "MyEFIApps/UEFIDoom/DOOM"]
+	path = MyEFIApps/UEFIDoom/DOOM
+	url = https://github.com/DrSTAHP/DOOM
+	branch = Port/UEFI
+[submodule "edk2-libc"]
+	path = edk2-libc
+	url = https://github.com/tianocore/edk2-libc
